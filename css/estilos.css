@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* Estilo INICIO Y OTROS */
+body {
+    background-color: #ffddf2;
+}
+
+.imgL {
+    width: 150px;
+    height: 150px;
+}
+
+header {
+    height: 100 px;
+    width: 100%;
+    background-image: url(../imagenes/banner.png);
+}
+
+nav {
+    height: 80px;
+    width: 100%;
+    background-color: #cee3fd;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    padding: 0px 0px 0px 10px;
+    display: flex;
+    list-style: none;
+}
+
+nav a {
+    color: #132161;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px 10px;
+}
+
+nav li:hover {
+    background-color: #f2ffdd;
+}
+
+section h1 {
+    color: rgb(243, 104, 128);
+    font-size: 40px;
+    line-height: 100px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: rgb(247, 221, 226);
+}
+
+.redes {
+    color: #2d365e;
+    font-weight: 400;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*estilo contacto*/
+#formulario {
+    color: #2d365e;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* estilo ubicacion y baners*/
+.titulo {
+    color: rgb(194, 54, 77);
+    font-weight: 400;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.parrafo {
+    color: #2d365e;
+    font-weight: 400;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.img .img__colom {
+    display: block;
+    margin: auto;
+}
+
+/* estilo index y Productos*/
+.barra {
+    background-color: #88d2e9;
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px 200px;
+    grid-template-columns: 20%;
+    grid-template-areas:
+        "item1 item1"
+        "item1 item1"
+        "item2 item2"
+        "item2 item2"
+        "item3 item3"
+    ;
+}
+
+.item1 {
+    grid-area: item1;
+    background-color: rgb(251, 208, 54);
+    color: #f6f7fa;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.item2 {
+    grid-area: item2;
+    background-color: rgb(54, 54, 116);
+    color: #f6f7fa;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.item3 {
+    grid-area: item3;
+    background-color: rgb(204, 50, 42);
+    color: #f6f7fa;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.producto {
+    background-color: #88d2e9;
+    display: grid;
+    grid-template-rows: 300px 300px 300px 300px 300px 300px 300px 300px 300px 300px 300px 300px;
+    grid-template-areas:
+        "img1 img2"
+        "img1 img2"
+        "img3 img4"
+        "img3 img4"
+        "img5 img6"
+        "img5 img6"
+        "img7 img8"
+        "img7 img8"
+        "img9 img10"
+        "img9 img10"
+        "img11 img12"
+        "img11 img12"
+    ;
+
+}
+
+.img1 {
+    grid-area: img1;
+    background-color: #d3c8fd;
+    color: #2d365e;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.img2 {
+    grid-area: img2;
+    background-image: url(../imagenes/paletasLeche.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: height 2s, width 0.5s;
+
+}
+
+.img3 {
+    grid-area: img3;
+    background-image: url(../imagenes/paleta.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.img4 {
+    grid-area: img4;
+    background-color: #d3c8fd;
+    color: #2d365e;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.img5 {
+    grid-area: img5;
+    background-color: #d3c8fd;
+    color: #2d365e;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.img6 {
+    grid-area: img6;
+    background-image: url(../imagenes/heladosLeche.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.img7 {
+    grid-area: img7;
+    background-image: url(../imagenes/tipoPolrt.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img8 {
+    grid-area: img8;
+    background-color: #d3c8fd;
+    color: #2d365e;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.img9 {
+    grid-area: img9;
+    background-color: #d3c8fd;
+    color: #2d365e;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.img10 {
+    grid-area: img10;
+    background-image: url(../imagenes/helado.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img11 {
+    grid-area: img11;
+    background-image: url(../imagenes/chococono.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.img12 {
+    grid-area: img12;
+    background-color: #d3c8fd;
+    color: #2d365e;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (main-width:360px) {
+    nav .index {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
